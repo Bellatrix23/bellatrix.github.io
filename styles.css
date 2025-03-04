@@ -292,13 +292,14 @@ body {
     justify-content: center; /* Optional: center items vertically if needed */
     text-align: center; /* Center text inside each item */
     position: absolute;
-    top: 70px; /* Adjust this value as needed */
+    top: 85px; /* Adjust this value as needed */
     left: 0;
     right: 0;
     background: rgba(0, 0, 0, 0.9);
     padding: 20px;
+    padding-top: 30px;
     margin: 0;
-    border-radius: 10px;
+    border-radius: 50px;
   }
 
   .nav-menu li {
