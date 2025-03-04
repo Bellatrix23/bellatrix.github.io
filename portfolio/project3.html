@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zoë | GitHub Galaxy Explorer</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+      <div class="container nav-container">
+        <a href="index.html" class="logo">
+          <img src="assets/zoelogo.svg" alt="Logo" />
+        </a>
+        <ul class="nav-menu">
+          <li><a href="index.html#home">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Project Content -->
+    <main class="project-page">
+      <div class="container">
+        <h1>GitHub Galaxy Explorer</h1>
+        <section class="project-details">
+            <p>
+              <strong>Project Overview:</strong><br>
+              GitHub Galaxy Explorer is a full-stack web application built with React and Express that allows users to explore GitHub profiles and repositories easily. This project integrates with the GitHub API to provide a seamless browsing experience of user details, repositories, and recent commits.
+            </p>
+          
+            <p>
+              <strong>Features:</strong>
+            </p>
+            <ul>
+              <li>User Search: Search for GitHub users using their username.</li>
+              <li>User Details: View user profile information including avatar, bio, and list of repositories.</li>
+              <li>Repository Details: View repository details such as description, creation date, last update, and the last 5 commit messages.</li>
+              <li>Loading Spinners: Display loading indicators while data is being fetched.</li>
+              <li>GitHub Themed UI: Sleek, centered, and minimalistic design inspired by GitHub's color scheme.</li>
+            </ul>
+          
+            <p>
+              <strong>Technologies Used:</strong><br>
+              <em>Frontend:</em> React.js, React Router, Bootstrap<br>
+              <em>Backend:</em> Node.js, Express, Axios<br>
+              <em>Testing:</em> Jest, Supertest<br>
+              <em>Other:</em> Axios for HTTP requests, CSS for styling
+            </p>
+          </section>
+          
+          <div class="project-screenshots">
+            <h2>Screenshots</h2>
+            <img
+              src="assets/githubhome.jpg"
+              alt="Screenshot 1 of Awesome App"
+            />
+            <img
+              src="assets/githubsearch.jpg"
+              alt="Screenshot 1 of Awesome App"
+            />
+          </div>
+          <div class="project-links">
+            <a
+              href="https://github.com/Bellatrix23/github-galaxy-explorer"
+              target="_blank"
+              class="btn"
+              >View on GitHub</a
+            >
+          </div>
+          <div class="back-to-projects-container" style="text-align: center; margin-top: 40px;">
+            <a href="index.html#projects" class="btn back-to-projects">Back to Projects</a>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-container">
+        <p>Zoë Samantha Bell © 2025</p>
+        <div class="social-links">
+            <a
+            href="https://www.linkedin.com/in/zoë-samantha-bell-362732176"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/Bellatrix23" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a href="https://instagram.com/zobellatrix" target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://www.facebook.com/zsbell1/" target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" title="Back to Top">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+  </body>
+</html>
